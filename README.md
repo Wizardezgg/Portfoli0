@@ -29,6 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Links
 
+- **Live Portfolio:** [victormallick.is-a.dev](https://victormallick.is-a.dev) / [victormallick.vercel.app](https://victormallick.vercel.app)
 - **GitHub:** [github.com/Wizardezgg](https://github.com/Wizardezgg)
 - **LinkedIn:** [linkedin.com/in/victor-mallick](https://www.linkedin.com/in/victor-mallick)
 - **Email:** victormallick19@gmail.com

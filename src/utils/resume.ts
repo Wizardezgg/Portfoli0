@@ -26,13 +26,13 @@ export function downloadVictorResumePdf() {
   doc.setFontSize(9.5);
   doc.setTextColor(80, 80, 80);
   doc.text(
-    "Khulna, Bangladesh (GMT+6)  |  victormallick19@gmail.com  |  Discord: w1zard_gg",
+    "Khulna, BD  |  victormallick19@gmail.com  |  Portfolio: victormallick.is-a.dev",
     left,
     y
   );
   y += 13;
   doc.text(
-    "GitHub: github.com/Wizardezgg  |  LinkedIn: linkedin.com/in/victor-mallick  |  FB: facebook.com/wizardezgg",
+    "GitHub: github.com/Wizardezgg  |  LinkedIn: linkedin.com/in/victor-mallick  |  Discord: w1zard_gg",
     left,
     y
   );
