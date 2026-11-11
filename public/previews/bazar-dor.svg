@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1512" />
+      <stop offset="100%" stop-color="#0f1f1a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <!-- Top Navbar -->
+  <rect x="0" y="0" width="1200" height="64" fill="#09110e" opacity="0.9" />
+  <circle cx="64" cy="32" r="14" fill="#10b981" />
+  <text x="90" y="39" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">BazarDor</text>
+  <text x="200" y="38" fill="#6ee7b7" font-family="monospace" font-size="13">LIVE BANGLADESH MARKET TRACKER</text>
+  <rect x="1030" y="18" width="110" height="30" rx="6" fill="#10b981" />
+  <text x="1085" y="38" fill="#06281e" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">Sign In</text>
+
+  <!-- Live Price Ticker Strip -->
+  <rect x="0" y="64" width="1200" height="36" fill="#0d261e" />
+  <text x="60" y="87" fill="#34d399" font-family="monospace" font-size="13" font-weight="700">● LIVE TICKER:</text>
+  <text x="180" y="87" fill="#e2e8f0" font-family="monospace" font-size="13">Miniket Rice ৳72/kg (-2.1%)   •   Deshi Onion ৳85/kg (-4.5%)   •   Broiler Chicken ৳195/kg (+1.2%)   •   Soybean Oil ৳168/L (0.0%)</text>
+
+  <!-- Hero Left -->
+  <rect x="60" y="150" width="210" height="28" rx="14" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" />
+  <text x="165" y="169" fill="#34d399" font-family="sans-serif" font-size="12" font-weight="700" text-anchor="middle">DAILY KARWAN BAZAR INDEX</text>
+
+  <text x="60" y="240" fill="#ffffff" font-family="sans-serif" font-size="52" font-weight="800">Track Daily</text>
+  <text x="60" y="302" fill="#34d399" font-family="sans-serif" font-size="52" font-weight="800">Bazar Prices</text>
+  <text x="60" y="364" fill="#ffffff" font-family="sans-serif" font-size="52" font-weight="800">Across Bangladesh.</text>
+
+  <text x="60" y="415" fill="#94a3b8" font-family="sans-serif" font-size="18">Compare real-time wholesale &amp; retail grocery prices across 7 categories,</text>
+  <text x="60" y="442" fill="#94a3b8" font-family="sans-serif" font-size="18">spot daily top movers, and plan your household budget with live data.</text>
+
+  <rect x="60" y="485" width="190" height="48" rx="8" fill="url(#accent)" />
+  <text x="155" y="515" fill="#052e16" font-family="sans-serif" font-size="15" font-weight="800" text-anchor="middle">Explore Market →</text>
+
+  <rect x="268" y="485" width="170" height="48" rx="8" fill="#132a23" stroke="#10b981" stroke-opacity="0.3" />
+  <text x="353" y="515" fill="#e2e8f0" font-family="sans-serif" font-size="15" font-weight="600" text-anchor="middle">Compare Markets</text>
+
+  <!-- Right Market Dashboard Card -->
+  <rect x="650" y="150" width="490" height="420" rx="16" fill="#0d1b16" stroke="#10b981" stroke-opacity="0.35" stroke-width="1.5" />
+  <text x="682" y="195" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="700">Today's Essential Commodities</text>
+  <text x="1108" y="195" fill="#34d399" font-family="monospace" font-size="12" text-anchor="end">UPDATED TODAY</text>
+
+  <!-- Item Row 1 -->
+  <rect x="680" y="220" width="430" height="68" rx="10" fill="#132620" />
+  <text x="704" y="250" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">Miniket Rice (Premium)</text>
+  <text x="704" y="272" fill="#94a3b8" font-family="sans-serif" font-size="13">Grains &amp; Staples • Per Kg</text>
+  <text x="1086" y="252" fill="#34d399" font-family="monospace" font-size="20" font-weight="700" text-anchor="end">৳72</text>
+  <text x="1086" y="272" fill="#10b981" font-family="monospace" font-size="12" text-anchor="end">▼ 2.1%</text>
+
+  <!-- Item Row 2 -->
+  <rect x="680" y="302" width="430" height="68" rx="10" fill="#132620" />
+  <text x="704" y="332" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">Deshi Onion (Faridpur)</text>
+  <text x="704" y="354" fill="#94a3b8" font-family="sans-serif" font-size="13">Fresh Vegetables • Per Kg</text>
+  <text x="1086" y="334" fill="#34d399" font-family="monospace" font-size="20" font-weight="700" text-anchor="end">৳85</text>
+  <text x="1086" y="354" fill="#10b981" font-family="monospace" font-size="12" text-anchor="end">▼ 4.5%</text>
+
+  <!-- Item Row 3 -->
+  <rect x="680" y="384" width="430" height="68" rx="10" fill="#132620" />
+  <text x="704" y="414" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">Rui Fish (River Medium)</text>
+  <text x="704" y="436" fill="#94a3b8" font-family="sans-serif" font-size="13">Fish &amp; Seafood • Per Kg</text>
+  <text x="1086" y="416" fill="#fbbf24" font-family="monospace" font-size="20" font-weight="700" text-anchor="end">৳340</text>
+  <text x="1086" y="436" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="end">0.0%</text>
+
+  <!-- Item Row 4 -->
+  <rect x="680" y="466" width="430" height="68" rx="10" fill="#132620" />
+  <text x="704" y="496" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="700">Farm Eggs (Brown Dozen)</text>
+  <text x="704" y="518" fill="#94a3b8" font-family="sans-serif" font-size="13">Meat, Poultry &amp; Eggs • 12 Pcs</text>
+  <text x="1086" y="498" fill="#34d399" font-family="monospace" font-size="20" font-weight="700" text-anchor="end">৳145</text>
+  <text x="1086" y="518" fill="#10b981" font-family="monospace" font-size="12" text-anchor="end">▼ 1.8%</text>
+</svg>
