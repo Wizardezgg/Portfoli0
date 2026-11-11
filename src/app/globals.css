@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353439;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f4e700;
+}
+
+@keyframes hudEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.995);
+    filter: brightness(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: brightness(1);
+  }
+}
+
+.animate-hud-enter {
+  animation: hudEnter 220ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hud-card-hover {
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 220ms ease;
+}
+
+.hud-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.7),
+    0 0 18px rgba(244, 231, 0, 0.14);
+  border-color: rgba(244, 231, 0, 0.55);
+}
+
+.hud-btn-hover {
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.hud-btn-hover:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(244, 231, 0, 0.25);
+}
+
+.hud-btn-hover:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.wheel-slice {
+  transform-origin: 0px 0px;
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    fill 200ms ease,
+    stroke 200ms ease,
+    filter 220ms ease;
+}
+
+.wheel-slice:hover {
+  transform: scale(1.045);
+  filter: drop-shadow(0 0 12px rgba(0, 238, 252, 0.45));
+}
+
+@media print {
+  header,
+  aside,
+  .no-print {
+    display: none !important;
+  }
+}
