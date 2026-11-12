@@ -412,10 +412,10 @@ export default function PortfolioShell() {
                 triggerSound(780, "triangle");
                 handleNavigateSector(5);
               }}
-              className="hud-btn-hover px-3.5 py-1.5 rounded-xl bg-secondary-container text-on-secondary font-label-md text-label-md uppercase font-bold hover:bg-primary-container hover:text-on-primary-container flex items-center gap-1"
+              className="hud-btn-hover px-2.5 sm:px-3.5 py-1.5 rounded-xl bg-secondary-container text-on-secondary font-label-md text-label-md uppercase font-bold hover:bg-primary-container hover:text-on-primary-container flex items-center gap-1 shrink-0 whitespace-nowrap"
             >
               <span className="material-symbols-outlined text-[15px]">bolt</span>
-              <span>HIRE ME</span>
+              <span className="hidden min-[420px]:inline">HIRE ME</span>
             </button>
           </div>
         </div>
